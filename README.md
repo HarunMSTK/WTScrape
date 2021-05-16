@@ -21,8 +21,7 @@ Please deploy on your local this bot.
 <br>
 <b>python main.py</b>
 <br>
-<h2>BOTUSAGE</h2>
-<br>
+<h1>BOTUSAGE</h1>
 <b>!hesapara < NICKNAME ></b>
 <br>
 <b>!klanara < CLANNAME ></b>
