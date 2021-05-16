@@ -1,3 +1,4 @@
+
 # WTScrape
 This Repo Created For Wolfteam Game.
 # WARNING
@@ -27,4 +28,4 @@ Please deploy on your local this bot.
 <b>!klanara < CLANNAME ></b>
 <br>
 <b>!klanoyuncu < CLANNAME ></b>
-<br>
+<hr>
