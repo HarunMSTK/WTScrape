@@ -20,11 +20,12 @@ Please deploy on your local this bot.
 <b>pip install discordpy</b>
 <br>
 <b>python main.py</b>
-# BOT USAGE
 <br>
-<b>!hesapara <NICKNAME></b>
+<h2>BOTUSAGE</h2>
 <br>
-<b>!klanara <CLANNAME></b>
+<b>!hesapara < NICKNAME ></b>
 <br>
-<b>!klanoyuncu <CLANNAME></b>
+<b>!klanara < CLANNAME ></b>
+<br>
+<b>!klanoyuncu < CLANNAME ></b>
 <br>
