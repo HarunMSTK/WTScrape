@@ -2,7 +2,8 @@
 # WTScrape
 This Repo Created For Wolfteam Game.
 # WARNING
-This Tool is Created For Education Only
+This Tool is Created For Education Only.<br>
+It was not created to harm.
 # USAGE
 Requirements Python 3.0+ 
 <br>
