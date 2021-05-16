@@ -18,7 +18,7 @@ def getUser(nickname):
     else:
         return False
 def getMemberList(clan):
-    base_url = "https://wtapi.joygame.com/api/Clan/GetClanMemberList"
+    base_url = "https://wtapi.joygame.com:443/api/Clan/GetClanMemberList"
     base_headers = {"Sec-Ch-Ua": "\"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"", "Sec-Ch-Ua-Mobile": "?0", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36", "Content-Type": "application/json", "Accept": "*/*", "Origin": "chrome-extension://gmmkjpcadciiokjpikmkkmapphbmdjok", "Sec-Fetch-Site": "none", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Dest": "empty", "Accept-Encoding": "gzip, deflate", "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7", "Connection": "close"}
     base_json={"ClanName": f"{clan}"}
     r = requests.post(base_url, headers=base_headers, json=base_json)
@@ -28,7 +28,7 @@ def getMemberList(clan):
     else:
         return False
 def getClan(clan):
-    base_url = "https://wtapi.joygame.com/api/Clan/GetClanInfo"
+    base_url = "https://wtapi.joygame.com:443/api/Clan/GetClanInfo"
     base_headers = {"Sec-Ch-Ua": "\"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"", "Sec-Ch-Ua-Mobile": "?0", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36", "Content-Type": "application/json", "Accept": "*/*", "Origin": "chrome-extension://gmmkjpcadciiokjpikmkkmapphbmdjok", "Sec-Fetch-Site": "none", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Dest": "empty", "Accept-Encoding": "gzip, deflate", "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7", "Connection": "close"}
     base_json={"ClanName": f"{clan}"}
     r = requests.post(base_url, headers=base_headers, json=base_json)
@@ -38,7 +38,7 @@ def getClan(clan):
     else:
         return False
 def getClanRank(clan):
-    base_url = "https://wtapi.joygame.com/api/Ranking/GetClanDailyRanking"
+    base_url = "https://wtapi.joygame.com:443/api/Ranking/GetClanDailyRanking"
     base_headers = {"Sec-Ch-Ua": "\"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"", "Sec-Ch-Ua-Mobile": "?0", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36", "Content-Type": "application/json", "Accept": "*/*", "Origin": "chrome-extension://gmmkjpcadciiokjpikmkkmapphbmdjok", "Sec-Fetch-Site": "none", "Sec-Fetch-Mode": "cors", "Sec-Fetch-Dest": "empty", "Accept-Encoding": "gzip, deflate", "Accept-Language": "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7", "Connection": "close"}
     base_json={"ClanName": f"{clan}"}
     r = requests.post(base_url, headers=base_headers, json=base_json)
